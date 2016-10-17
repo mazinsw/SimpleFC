@@ -1,0 +1,60 @@
+Version 1.20 (2014-06-12)
+	Added "ServiceName" parameter to function "AdvAddRule"
+	Documentation updated
+
+Version 1.19 (2012-07-16)
+	Documentation updated
+
+Version 1.18 (2010-02-23)
+	Documentation updated
+
+Version 1.17 (2009-09-05)
+	Added changes from the service manager
+	The following functions are now case insensitive:
+	SimpleFC::IsApplicationAdded
+	SimpleFC::IsApplicationEnabled
+	SimpleFC::EnableDisableApplication
+	SimpleFC::AdvExistsRule
+
+Version 1.16 (2009-04-13)
+	Added changes from the service manager
+
+Version 1.15 (2008-08-18)
+	Added changes from the service manager and checked removed compiler optimization to avoid a false-positive virusscan.
+
+Version 1.14 (2008-02-05)
+	Added changes from the service manager
+
+Version 1.13 (2008-01-29)
+	Added changes from the service manager
+
+Version 1.12 (2007-11-13)
+	Fixed wrong documentation about SimpleFC::AdvExistsRule
+
+Version 1.11 (2007-08-07)
+	Fixed potential endless loop bug in SimpleFC::StartStopFirewallService
+
+Version 1.10 (2007-08-02)
+	Added default firewall functions:
+	SimpleFC::RestoreDefaults
+	SimpleFC::AllowDisallowIcmpOutboundDestinationUnreachable
+	SimpleFC::AllowDisallowIcmpRedirect
+	SimpleFC::AllowDisallowIcmpInboundEchoRequest
+	SimpleFC::AllowDisallowIcmpOutboundTimeExceeded
+	SimpleFC::AllowDisallowIcmpOutboundParameterProblem
+	SimpleFC::AllowDisallowIcmpOutboundSourceQuench
+	SimpleFC::AllowDisallowIcmpInboundRouterRequest
+	SimpleFC::AllowDisallowIcmpInboundTimestampRequest
+	SimpleFC::AllowDisallowIcmpInboundMaskRequest
+	SimpleFC::AllowDisallowIcmpOutboundPacketTooBig
+	SimpleFC::IsIcmpTypeAllowed
+	Added functions for Windows Firewall with Advanced Security
+	SimpleFC::AdvAddRule
+	SimpleFC::AdvRemoveRule
+	SimpleFC::AdvExistsRule
+
+Version 1.01 (2007-07-05)
+	Changed missing documentation about the function SimpleFC::IsFirewallEnabled
+	
+Version 1.0 (2007-05-02)
+	First offical version
